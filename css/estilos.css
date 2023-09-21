@@ -1,6 +1,23 @@
-body {background-color: rgb(200, 224, 104); font-size: x-large; align-content: safe;}
+body {background-color: rgb(200, 224, 104); font-size: x-large; align-content: safe; background-image: url(../imagenes/back2.jpeg); background-repeat: repeat-x; background-attachment: fixed;}
 h2.subaqua{color: aqua; font-size: xx-large; font-style: italic; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .subpink{color: rgb(230, 78, 207); font-size:xx-large ; align-content: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 .titu{text-align: center; text-decoration: underline;color: rgb(134, 21, 21);}
-.lista{text-align: justify; color: rgb(0, 55, 255); font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: oblique;}
+.list{text-align: justify; color: rgb(0, 55, 255); font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: oblique;}
 .miimagen{width: 250px; height: 220px; position: relative; transform: translate(70%,0%);}
+.miimagen{border: 5px solid white ; margin-top: 40px;}
+header{background-color: white ; width: 50%; margin-left: 20%;}
+section{background-color: rgb(207, 207, 198); width: 18%;}
+:root{--facebook: #3b5999; --instagram: #e4405f; --twitter: #55acee; --linkedin: #0077B5; --whatsapp: #25D366; }
+.redes-container{ display: flex; text-align: center; margin: 0% 5px; }
+.redes-container ul:hover a{ filter: blur(2px);}
+.redes-container ul li a:hover{transform: translateY(-3px) scale(1); filter: none;}
+.redes-container ul li a{ display: block; padding: 0 10px ; background: black ; color: white; line-height: 50px; }
+.redes-container ul li .fb:hover { background: var(--facebook);}
+.redes-container ul li .insta:hover{ background: var(--instagram);}
+.redes-container ul li .tw:hover{ background: var(--twitter);}
+.redes-container ul li .linkedin:hover { background: var(--linkedin);}
+.logo{ display: flex; margin: 0% 7px; }
+.logo .ws{ display: block; padding: 0 3px ; background: black ; color: white;}
+.logo .ws:hover{background: var(--whatsapp);}
+.logo{float: right; width: 60%;}
+.logo{text-decoration: none;}
