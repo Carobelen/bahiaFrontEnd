@@ -1,23 +1,162 @@
-body {background-color: rgb(200, 224, 104); font-size: x-large; align-content: safe; background-image: url(../imagenes/back2.jpeg); background-repeat: repeat-x; background-attachment: fixed;}
-h2.subaqua{color: aqua; font-size: xx-large; font-style: italic; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-.subpink{color: rgb(230, 78, 207); font-size:xx-large ; align-content: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-.titu{text-align: center; text-decoration: underline;color: rgb(134, 21, 21);}
-.list{text-align: justify; color: rgb(0, 55, 255); font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: oblique;}
-.miimagen{width: 250px; height: 220px; position: relative; transform: translate(70%,0%);}
-.miimagen{border: 5px solid white ; margin-top: 40px;}
-header{background-color: white ; width: 50%; margin-left: 20%;}
-section{background-color: rgb(207, 207, 198); width: 18%;}
-:root{--facebook: #3b5999; --instagram: #e4405f; --twitter: #55acee; --linkedin: #0077B5; --whatsapp: #25D366; }
-.redes-container{ display: flex; text-align: center; margin: 0% 5px; }
-.redes-container ul:hover a{ filter: blur(2px);}
-.redes-container ul li a:hover{transform: translateY(-3px) scale(1); filter: none;}
-.redes-container ul li a{ display: block; padding: 0 10px ; background: black ; color: white; line-height: 50px; }
-.redes-container ul li .fb:hover { background: var(--facebook);}
-.redes-container ul li .insta:hover{ background: var(--instagram);}
-.redes-container ul li .tw:hover{ background: var(--twitter);}
-.redes-container ul li .linkedin:hover { background: var(--linkedin);}
-.logo{ display: flex; margin: 0% 7px; }
-.logo .ws{ display: block; padding: 0 3px ; background: black ; color: white;}
-.logo .ws:hover{background: var(--whatsapp);}
-.logo{float: right; width: 60%;}
-.logo{text-decoration: none;}
+header{
+    padding: 50px;
+    background-color: chocolate;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgoldenrod;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  
+    
+}
+nav a:hover{
+    background-color: rgb(225, 118, 41);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    font-style: oblique;
+    font-size: large;
+}
+aside{
+    flex: 40px;
+    background-color: bisque;
+    padding:20px ;
+}
+.carrot{
+    width: 300px;
+    height: 250px;
+    border: 3px solid white;
+    border-radius: 10%;
+}
+section{
+    flex: 60%;
+    background-color: burlywood;
+    padding: 20px ;
+    font-style: oblique;
+    font-size: larger;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+@media screen and (max-width: 700px) { nav, .row{
+    flex-direction: column;
+}}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 10px;
+}
+.logo img{
+    float:left;
+    width: 100px;
+    border: 3px solid white;
+    opacity: 1;
+    border-radius: 50%;
+    
+ }
+ .name{ 
+    text-align: center;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:solid;
+    font-size:larger;
+    font-style: oblique;
+}
+ .socialmedia  {
+    display: flex;
+    margin: 0% 5px;
+    text-align: center;}
+ 
+ :root{--facebook: #3b5999; --instagram: #e4405f; --twitter: #55acee; --linkedin: #0077B5; --whatsapp: #25D366; --color-primary:rgb(227, 164, 46) ;}
+ 
+     
+     .socialmedia a:hover {
+      transform: translateY(-3px) scale(1);
+      filter: none;}
+     
+     .socialmedia a { 
+        display: block; 
+        padding: 0 10px ; 
+        background: orange ; 
+        color: white;
+         line-height: 50px; }
+     .socialmedia .caja1:hover { background: var(--facebook);}
+     .socialmedia .caja2:hover{ background: var(--instagram);}
+     .socialmedia .caja3:hover{ background: var(--twitter);}
+     .socialmedia .caja4:hover { background: var(--linkedin);}
+
+ .video{
+    width: 500px;
+    height: 300px;
+ }
+ .caja{
+    font-size: 24px;
+    margin-left: 10px;
+ }
+ .foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(180, 122, 63);
+    padding: 10px;
+ }
+ .mapleft{
+    flex:1;
+   
+ }
+ .maps{
+    width: 200px;
+    height: 150px;
+    border-radius: 10%;
+    
+ }
+ .social {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+    
+    
+}
+      
+ .information{
+    flex: 1;
+    text-align: right;
+    font-style: oblique; 
+    font-size: 16px;
+    margin-top: 10px;
+    justify-content: right;
+
+}
+
+
+.social a:hover  {
+ transform: translateY(-3px) scale(1);
+ filter: none;}
+
+.social a { 
+     display: block;
+     padding: 0 10px ;
+     background: orange ; 
+     color: white; 
+     line-height: 50px; }
+
+.social .s1:hover { background: var(--facebook);}
+.social .s2:hover{ background: var(--instagram);}
+.social .s3:hover{ background: var(--twitter);}
+.social .s4:hover { background: var(--linkedin);}
+
+ 
