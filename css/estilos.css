@@ -1,5 +1,8 @@
-header{
-    padding: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Karla&family=Open+Sans&family=Rancho&display=swap');
+ 
+ header{
+    padding: 5vw;
     background-color: chocolate;
     text-align: center;
 }
@@ -11,9 +14,9 @@ nav{
 }
 nav a{
     color: white;
-    padding: 14px 20px;
+    padding: 2vh 2vw;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 3vh;
   
     
 }
@@ -27,29 +30,32 @@ nav a:hover{
     font-size: large;
 }
 aside{
-    flex: 40px;
+    flex: 40vh;
     background-color: bisque;
-    padding:20px ;
+    padding:2vh ;
 }
 .carrot{
-    width: 300px;
-    height: 250px;
-    border: 3px solid white;
-    border-radius: 10%;
+
+    height: 26vh;
+    border: 1vw solid white;
+    border-radius: 2vh;
 }
 section{
     flex: 60%;
     background-color: burlywood;
-    padding: 20px ;
+    padding: 2vw ;
     font-style: oblique;
     font-size: larger;
 }
 footer{
-    padding: 20px;
+    padding: 2vh;
+
+
+
     text-align: center;
     background-color: blanchedalmond;
 }
-@media screen and (max-width: 700px) { nav, .row{
+@media screen and (max-width: 70vw) { nav, .row{
     flex-direction: column;
 }}
 .encabezado{
@@ -57,14 +63,14 @@ footer{
     justify-content: space-between;
     align-items: center;
     color: black;
-    padding: 10px;
+    padding: 1vh;
 }
 .logo img{
     float:left;
-    width: 100px;
-    border: 3px solid white;
+    width: 10vw;
+    border: 1vh solid white;
     opacity: 1;
-    border-radius: 50%;
+    border-radius: 30vh;
     
  }
  .name{ 
@@ -77,50 +83,50 @@ footer{
 }
  .socialmedia  {
     display: flex;
-    margin: 0% 5px;
+    margin:  5vw;
     text-align: center;}
  
  :root{--facebook: #3b5999; --instagram: #e4405f; --twitter: #55acee; --linkedin: #0077B5; --whatsapp: #25D366; --color-primary:rgb(227, 164, 46) ;}
  
      
      .socialmedia a:hover {
-      transform: translateY(-3px) scale(1);
+      transform: translateY(-1vh) scale(1);
       filter: none;}
      
      .socialmedia a { 
         display: block; 
-        padding: 0 10px ; 
+        padding: 0 1vw ; 
         background: orange ; 
         color: white;
-         line-height: 50px; }
+         line-height: 5vh; }
      .socialmedia .caja1:hover { background: var(--facebook);}
      .socialmedia .caja2:hover{ background: var(--instagram);}
      .socialmedia .caja3:hover{ background: var(--twitter);}
      .socialmedia .caja4:hover { background: var(--linkedin);}
 
  .video{
-    width: 500px;
-    height: 300px;
+    width: 50vw;
+    
  }
  .caja{
-    font-size: 24px;
-    margin-left: 10px;
+    font-size: 24vh;
+    
  }
  .foot{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(180, 122, 63);
-    padding: 10px;
+    padding: 2vh;
  }
  .mapleft{
     flex:1;
    
  }
  .maps{
-    width: 200px;
-    height: 150px;
-    border-radius: 10%;
+    height: 20vh;
+    
+    border-radius: 1vw;
     
  }
  .social {
@@ -131,28 +137,41 @@ footer{
     
     
 }
+aside{ font-family: 'Dancing Script', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rancho', cursive;
+
+}
       
  .information{
     flex: 1;
     text-align: right;
     font-style: oblique; 
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: 2vh;
+    margin-top: 1vh;
     justify-content: right;
 
 }
+.information{
+    font-family: 'Karla', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
 
-
+ section{
+    font-family: 'Karla', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
 .social a:hover  {
- transform: translateY(-3px) scale(1);
+ transform: translateY(-1vh) scale(1);
  filter: none;}
 
 .social a { 
      display: block;
-     padding: 0 10px ;
+     padding: 0 1vw ;
      background: orange ; 
      color: white; 
-     line-height: 50px; }
+     line-height: 5vh; }
 
 .social .s1:hover { background: var(--facebook);}
 .social .s2:hover{ background: var(--instagram);}
