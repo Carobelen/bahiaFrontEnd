@@ -178,4 +178,20 @@ font-family: 'Open Sans', sans-serif;
 .social .s3:hover{ background: var(--twitter);}
 .social .s4:hover { background: var(--linkedin);}
 
+
+@media screen and (max-width: 768px) {
+    .video {
+      display: block; 
+    }
+  }
+  
  
+  @media screen and (min-width: 769px) {
+    .video{
+      display: none; 
+    }
+  }
+  @media screen and (max-width: 767px) {
+    section {
+      font-size: 2vh;
+    }}
