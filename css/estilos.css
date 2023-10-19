@@ -195,3 +195,13 @@ font-family: 'Open Sans', sans-serif;
     section {
       font-size: 2vh;
     }}
+ .carolina{
+    background-color: rgb(217, 132, 62);
+    
+    
+ }
+ .photo {
+    border: 2vh 2vw;
+    border-radius: 4vh;
+    
+ }
