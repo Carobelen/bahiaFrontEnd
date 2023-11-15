@@ -1,6 +1,278 @@
-body {background-color: rgb(200, 224, 104); font-size: x-large; align-content: safe;}
-h2.subaqua{color: aqua; font-size: xx-large; font-style: italic; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-.subrosa{color: rgb(230, 78, 207); font-size:xx-large ; align-content: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-.titu{text-align: center; text-decoration: underline;color: rgb(134, 21, 21);}
-.lista{text-align: justify; color: rgb(0, 55, 255); font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: oblique;}
-.miimagen{width: 250px; height: 220px; position: relative; transform: translate(70%,0%);}
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Karla&family=Open+Sans&family=Rancho&display=swap');
+ 
+ header{
+    padding: 5vw;
+    background-color: chocolate;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgoldenrod;
+    justify-content: space-between;
+}
+nav a{
+    color: white;
+    padding: 2vh 2vw;
+    text-decoration: none;
+    font-size: 3vh;
+  
+    
+}
+nav a:hover{
+    background-color: rgb(225, 118, 41);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    font-style: oblique;
+    font-size: large;
+}
+aside{
+    flex: 40vh;
+    background-color: bisque;
+    padding:2vh ;
+}
+.carrot{
+
+    height: 26vh;
+    border: 1vw solid white;
+    border-radius: 2vh;
+}
+section{
+    flex: 60%;
+    background-color: burlywood;
+    padding: 2vw ;
+    font-style: oblique;
+    font-size: larger;
+}
+footer{
+    padding: 2vh;
+
+
+
+    text-align: center;
+    background-color: blanchedalmond;
+}
+@media screen and (max-width: 70vw) { nav, .row{
+    flex-direction: column;
+}}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 1vh;
+}
+.logo img{
+    float:left;
+    width: 10vw;
+    border: 1vh solid white;
+    opacity: 1;
+    border-radius: 30vh;
+    
+ }
+ .name{ 
+    text-align: center;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration:solid;
+    font-size:larger;
+    font-style: oblique;
+}
+ .socialmedia  {
+    display: flex;
+    margin:  5vw;
+    text-align: center;}
+ 
+ :root{--facebook: #3b5999; --instagram: #e4405f; --twitter: #55acee; --linkedin: #0077B5; --whatsapp: #25D366; --color-primary:rgb(227, 164, 46) ;}
+ 
+     
+     .socialmedia a:hover {
+      transform: translateY(-1vh) scale(1);
+      filter: none;}
+     
+     .socialmedia a { 
+        display: block; 
+        padding: 0 1vw ; 
+        background: orange ; 
+        color: white;
+         line-height: 5vh; }
+     .socialmedia .caja1:hover { background: var(--facebook);}
+     .socialmedia .caja2:hover{ background: var(--instagram);}
+     .socialmedia .caja3:hover{ background: var(--twitter);}
+     .socialmedia .caja4:hover { background: var(--linkedin);}
+
+ .video{
+    width: 50vw;
+    
+ }
+ .caja{
+    font-size: 24vh;
+    
+ }
+ .foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(180, 122, 63);
+    padding: 2vh;
+ }
+ .mapleft{
+    flex:1;
+   
+ }
+ .maps{
+    height: 20vh;
+    
+    border-radius: 1vw;
+    
+ }
+ .social {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    
+    
+    
+}
+aside{ font-family: 'Dancing Script', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rancho', cursive;
+
+}
+      
+ .information{
+    flex: 1;
+    text-align: right;
+    font-style: oblique; 
+    font-size: 2vh;
+    margin-top: 1vh;
+    justify-content: right;
+
+}
+.information{
+    font-family: 'Karla', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+ section{
+    font-family: 'Karla', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+.social a:hover  {
+ transform: translateY(-1vh) scale(1);
+ filter: none;}
+
+.social a { 
+     display: block;
+     padding: 0 1vw ;
+     background: orange ; 
+     color: white; 
+     line-height: 5vh; }
+
+.social .s1:hover { background: var(--facebook);}
+.social .s2:hover{ background: var(--instagram);}
+.social .s3:hover{ background: var(--twitter);}
+.social .s4:hover { background: var(--linkedin);}
+
+
+@media screen and (max-width: 768px) {
+    .video {
+      display: block; 
+    }
+  }
+  
+ 
+  @media screen and (min-width: 769px) {
+    .video{
+      display: none; 
+    }
+  }
+  @media screen and (max-width: 767px) {
+    section {
+      font-size: 2vh;
+    }}
+ .carolina{
+    background-color: rgb(217, 132, 62);
+    
+    
+ }
+ .photo {
+    border: 2vh 2vw;
+    border-radius: 4vh;
+    
+ }
+
+ .change  {
+    background-color: #ffcc00; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Relleno del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilos para el modo nocturno */
+body.modo-nocturno {
+    background-color: #222;
+    color: #fff;
+}
+
+
+#contenedorPrincipal.modo-nocturno {
+    background-color: #222 ;
+    color: #fff;
+ }
+    .foot.modo-nocturno {
+        background-color: #222;
+        color: #fff;
+
+    }
+
+    .nav.modo-nocturno{
+        background-color: #222;
+        color: #fff;
+
+    }
+       #caroid.modo-nocturno{
+        background-color: #222;
+        color: #fff;
+    }
+     #caroidd.modo-nocturno{
+        background-color: #222;
+        color: #fff;
+
+     }
+     #caroid3.modo-nocturno{
+        background-color: #434040;
+        color: #fff;
+
+
+     }
+     #caroid4.modo-nocturno{
+        background-color: #2b2929;
+        color: #fff;
+
+     }
+     #caroid5.modo-nocturno{
+        background-color: #504e4e;
+        color: #fff;
+
+     }
+     #caroid6.modo-nocturno{
+        background-color: #504e4e;
+        color: #fff;
+
+     }
+    .info2{
+        background-color: #ffcc00; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Relleno del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    border-radius: 5px; /* Borde redondeado */
+
+     }
