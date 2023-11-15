@@ -205,3 +205,74 @@ font-family: 'Open Sans', sans-serif;
     border-radius: 4vh;
     
  }
+
+ .change  {
+    background-color: #ffcc00; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Relleno del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilos para el modo nocturno */
+body.modo-nocturno {
+    background-color: #222;
+    color: #fff;
+}
+
+
+#contenedorPrincipal.modo-nocturno {
+    background-color: #222 ;
+    color: #fff;
+ }
+    .foot.modo-nocturno {
+        background-color: #222;
+        color: #fff;
+
+    }
+
+    .nav.modo-nocturno{
+        background-color: #222;
+        color: #fff;
+
+    }
+       #caroid.modo-nocturno{
+        background-color: #222;
+        color: #fff;
+    }
+     #caroidd.modo-nocturno{
+        background-color: #222;
+        color: #fff;
+
+     }
+     #caroid3.modo-nocturno{
+        background-color: #434040;
+        color: #fff;
+
+
+     }
+     #caroid4.modo-nocturno{
+        background-color: #2b2929;
+        color: #fff;
+
+     }
+     #caroid5.modo-nocturno{
+        background-color: #504e4e;
+        color: #fff;
+
+     }
+     #caroid6.modo-nocturno{
+        background-color: #504e4e;
+        color: #fff;
+
+     }
+    .info2{
+        background-color: #ffcc00; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Relleno del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    border-radius: 5px; /* Borde redondeado */
+
+     }
